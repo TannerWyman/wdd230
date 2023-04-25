@@ -2,12 +2,9 @@ body{
     font-family: 'Schibsted Grotesk', sans-serif;
     margin-left: auto;
     margin-right: auto;
-    width: 40em;
     background-color: #279bb3;
 }
 header{
-    display: grid;
-    grid-template-columns: repeat(4, 24%);
     background-color: #07b578;
     box-shadow: 4px 4px 5px #00422b;
     text-align: center;
@@ -23,7 +20,7 @@ footer{
     grid-column: 1/2;
 }
 #myName{
-    grid-column: 2/5;
+    padding-bottom: 10px;
 }
 li{
     padding: 5px;
