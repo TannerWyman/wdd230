@@ -1,8 +1,13 @@
+/*
+279bb3 for blue
+07b578 for green
+00422b for green shadow
+*/
 body{
     font-family: 'Schibsted Grotesk', sans-serif;
     margin-left: auto;
     margin-right: auto;
-    background-color: #279bb3;
+    background-color: #78d2e4;
 }
 header{
     background-color: #07b578;
@@ -18,9 +23,12 @@ footer{
     width: 10em;
     padding: 15px;
     grid-column: 1/2;
+    grid-row: 1/4;
 }
 #myName{
+    font-family: 'Josefin Sans', sans-serif;
     padding-bottom: 10px;
+    font-size:xxx-large;
 }
 li{
     padding: 5px;
