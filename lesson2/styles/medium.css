@@ -1,0 +1,14 @@
+@media only screen and (min-width: 32.5em){
+    #topic1 {
+        grid-column: 1/4;
+    }
+    #topic2 {
+        grid-column: 4/7;
+    }
+    #topic3 {
+        grid-column: 1/7;
+    }
+    img{
+        width: 75%;
+    }
+}
