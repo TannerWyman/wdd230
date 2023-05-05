@@ -1,5 +1,5 @@
 header{
-    background-color: #E6E8E6;
+    background-color: #CED0CE;
     display: flex;
     flex-flow: column;
 	align-items: center;
@@ -8,6 +8,8 @@ header{
 }
 a {
     padding: 10px;
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
 }
 
 .headings{
@@ -83,3 +85,26 @@ td{
 /*
 colors: #414288 #ffffff #E6E8E6 #CED0CE #191919
 */
+
+h1, h2, h3, h4{
+    font-family: 'Raleway', sans-serif;
+    color: #414288;
+}
+h2{
+    background-color: #E6E8E6;
+}
+footer{
+    color: #414288;
+    background-color: #E6E8E6;
+    padding: 10px;
+}
+a:hover{
+    background-color: #414288;
+    color: #ffffff;
+}
+a:active{
+    color: #CED0CE;
+}
+p{
+    font-family: 'Fira Sans', sans-serif; 
+}
