@@ -8,3 +8,13 @@ document.getElementById('currentDate').textContent = new Date().toLocaleTimeStri
 
 const yearOptions = {year: 'numeric'}
 document.getElementById('currentYear').textContent = new Date().getFullYear('en-US', options);
+
+
+const meetDay = document.querySelector("#meetgreat");
+const weekday = now.getDay();
+
+if(weekday == 1 || weekday == 2){
+    const meetMessage = document.createElement('p');
+    meetDay.append(meetMessage);
+    meetMessage.textContent = "🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.";
+}
