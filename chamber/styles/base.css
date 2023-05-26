@@ -8,8 +8,12 @@ header{
     background-color: #CED0CE;
     display: grid;
     grid-template-columns: 33vw auto 75px;
+
 }
 
+#meetgreat{
+    text-align: center;
+}
 header div{
     background-color: #414288;
     color: #ffffff;
@@ -19,7 +23,7 @@ header div{
 h1{
     grid-column: 2/3;
     grid-row: 1/2;
-    font-size: 5vw;
+    font-size: 5.5vw;
     text-align: center;
     font-family: 'Raleway', sans-serif;
 }
@@ -136,6 +140,14 @@ main section{
     padding: 0%;
 }
 
+div picture source{
+    width: 100%;
+    height: auto;
+}
+div picture img{
+    width: 100%;
+    height: auto;
+}
 #hero-image{
     width: 100%
 }
@@ -163,15 +175,32 @@ main section{
 #weather{
     grid-row: 4/5;
 }
-#weather p{
+#weather img{
+    max-width: 175px;
+}
+#weather section{
     border-top: 2px solid rgb(255, 255, 255);
-    padding-top: 5px;
+    padding: 5px 20px 0px 20px;
+    margin: 8px 0px 16px 0px;
+}
+section span h3{
+    float: right;
+    font-size: 2em;
+    padding-right: 5px;
+}
+section h3{
+    font-size: 1.5em;
+    margin: 12px 0px 0px 0px;
 }
 #join{
     grid-row: 5/6;
 }
 #highlights{
     grid-column: 1/3;
+}
+#highlights h3 {
+    padding-top: 5px;
+    font-size: 1.5em;
 }
 .company {
     background-color: #CED0CE;
