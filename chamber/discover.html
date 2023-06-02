@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Tanner Wyman">
+    <meta name="description" content="Discover facts and local art and place with Tremonton City Chamber of Commerce discover page.">
+    <title>Tremonton City Chamber Discover Page</title>
+    <link rel="icon" href="favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&family=Raleway:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+</head>
+<body>
+    <header>
+        <div id="meetgreat"></div>
+        <img src="images/tremonton-city-commerce-logo.webp" id="logo" alt="Logo of Tremonton City Commerce">
+        <h1 class="heading">Tremonton City Commerce</h1>
+        <nav>
+            <button id="hBtn"><span>&#9776;</span><span>X</span></button>
+            <ul id="primaryNav">
+                <li><a href="index.html">Home</a></li>
+                <li class="active"><a href="discover.html">Discover</a></li>
+                <li><a href="#">Join</a></li>
+                <li><a href="#">Business Directory</a></li>
+            </ul>
+        </nav>
+        <ul id="socialLink">
+            <li><a href="https://www.facebook.com/" class="fa fa-facebook" id="facebook"></a></li>
+            <li><a href="https://twitter.com/" class="fa fa-twitter"></a></li>
+        </ul>
+        <time></time>
+    </header>
+    <main>
+        <section class="demograph">
+            <h2 class="discover-title">Demographics</h2>
+            <ul>
+                <li>Population: 10,493(2021)</li>
+                <li>Elevation: 4,324'</li>
+                <li>Founded: May 6, 1918</li>
+                <li>County: Box Elder</li>
+                <li>Area Code: 435</li>
+                <li>ZIP Code: 84337</li>
+            </ul>
+        </section>
+        <div class="shape">
+            <div class="insideShape">
+            </div>
+        </div>
+        <div class="imgList">
+            <picture class="discover-img">
+                <source media="(min-width: 1500px)" srcset="images/memorial-original.jpeg">
+                <source media="(min-width: 1100px)" srcset="images/memorial-587.jpeg">
+                <img src="images/memorial-350.jpg" loading="lazy" alt="A stone monument with face of people">
+            </picture>
+            <p>World War 2 memorial</p>
+            <picture class="discover-img">
+                <source media="(min-width: 1500px)" srcset="images/high-school-original.jpg">
+                <source media="(min-width: 1100px)" srcset="images/high-school-600.jpg">
+                <img src="images/high-school-350.jpg" loading="lazy" alt="A building with the words Bear River High School on it">
+            </picture>
+            <p>Local Bear River high school</p>
+            <picture class="discover-img">
+                <source media="(min-width: 1500px)" srcset="images/downtown-960.jpg">
+                <source media="(min-width: 1100px)" srcset="images/downtown-600.jpg">
+                <img src="images/downtown-350.jpg" loading="lazy" alt="A street with a mural of a man on the left">
+            </picture>
+            <p>Mural at downtown Tremonton</p>
+            <picture class="discover-img">
+                <source media="(min-width: 1100px)" srcset="images/rocket-mural-600.jpg">
+                <img src="images/rocket-mural-285.jpg" loading="lazy" alt="A mural of a NASA space shuttle">
+            </picture>
+            <p>NASA shuttle mural</p>
+            <picture class="discover-img">
+                <source media="(min-width: 1100px)" srcset="images/fishing-original.jpg">
+                <img src="images/fishing-360.jpg" loading="lazy" alt="A metal statue of three children fishing">
+            </picture>
+            <p>Satute at the Tremonton Library</p>
+        </div>
+    </main>
+    <footer>
+        <img src="images/tremonton-city-commerce-logo.webp" alt="Logo of Tremonton City Commerce">
+        <p>Last visited: <span id="visit"></span></p>
+        <p>Contact info: wym22002@byui.edu | <a href="https://www.google.com/maps/place/Tremonton,+UT+84337/@41.7164891,-112.2068035,14z/data=!3m1!4b1!4m6!3m5!1s0x8754a2d8750d4ff7:0x926f26877ace8ff3!8m2!3d41.7118728!4d-112.1655079!16zL20vMDEwZDlq">Location on Map</a></p>
+        <p>&copy;<span id="currentYear"></span> Tremonton City Commerce | Tanner Wyman | WDD 230 Project | Last Modification: <span id="currentDate"></span></p>
+    </footer>
+    <script src="scripts/current-date.js"></script>
+    <script src="scripts/list-menu.js"></script>
+</body>
+</html>

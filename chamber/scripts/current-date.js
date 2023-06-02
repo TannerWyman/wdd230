@@ -18,3 +18,27 @@ if(weekday == 1 || weekday == 2){
     meetDay.append(meetMessage);
     meetMessage.textContent = "🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.";
 }
+
+
+//Shows the number of days sense the last time the user visited the page using localStorage
+const visitSection = document.querySelector("#visit");
+
+const msToDays = 84600000;
+const msToSec = 1000;
+const today = Date.now();
+console.log(today);
+
+let lastVisit = Number(window.localStorage.getItem("lastVisit-ls")) || 0;
+
+if (lastVisit !== 0) {
+    let betwenDays = (Date.now() - lastVisit) / msToDays
+    if (betwenDays < 1){
+        visitSection.textContent = ` Not to long ago.`;
+    } else{
+        visitSection.textContent = betwenDays + ` days ago.`;
+    }
+} else {
+	visitSection.textContent = `This is your first visit.`;
+}
+lastVisit = today;
+localStorage.setItem("lastVisit-ls", lastVisit);
