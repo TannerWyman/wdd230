@@ -270,13 +270,9 @@ figcaption{
     padding-top: 5px;
     padding-bottom: 10px;
 }
-.shape{
-    height: 0;
-    width: 0;
-    background-color: #ffffff;
-}
-.insideShape{
-    height: 0px;
-    width: 0;
-    background-color: #ffffff;
+.thingsToSee{
+    background-color: #E6E8E6;
+    border-radius: 150px;
+    border: 1px #191919;
+    padding: 20px;
 }
