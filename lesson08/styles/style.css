@@ -25,4 +25,12 @@ tbody tr:nth-child(odd){
 }
 table, td {
     border: 1px solid;
-  }
+}
+tr th{
+    background-color: rgba(0, 87, 128, 0.582);
+}
+caption{
+    font-size: 0.5em;
+    caption-side: bottom;
+    padding-top: 5px;
+}
