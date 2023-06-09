@@ -276,3 +276,149 @@ figcaption{
     border: 1px #191919;
     padding: 20px;
 }
+
+/*----------- Join Page ---------------*/
+form fieldset{
+    margin: 2rem 0;
+    border: 1px solid #414288;
+    border-radius: 10px;
+    padding: .5rem 2%;
+    text-align: left;
+}
+form fieldset label{
+    padding: 5px;
+}
+form legend {
+    color: #414288;
+    margin: 0 1rem;
+    padding: 0 .5rem;
+}
+form label.top, form div {
+    display: block;
+    padding-top: 1rem;
+    color: #9c2c13;
+    font-size: .8rem;
+}
+form label.top input, form label.top select {
+    display: block;
+    font-size: 1rem;
+    border: solid 2px #CED0CE;
+    border-radius: 4px;
+    padding: .75rem;
+    color: #555;
+    width: 100%;
+    max-width: 18rem;
+    background-color: rgba(0,0,0,0.1);
+}
+form label.sbs {
+    display: block;
+    padding: .75rem 0;
+    color: #555;
+}
+form input.submitBt{
+    border: none;
+    background-color: #9c2c13;
+    color: white;
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    margin: 0 0 2rem 2%;
+    width: 96%;
+    max-width: 20rem;
+}
+form lable.top input:required {
+    border-left: red solid 6px;
+}
+form label.top input:required:valid {
+    border-left: green solid 6px;
+}
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #CED0CE;
+    border-radius: 4px;
+    background-color: rgba(0,0,0,0.1);
+    font-size: 16px;
+    resize: none;
+  }
+
+
+table{
+    border: 3px solid #CED0CE;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    height: 350px;
+}
+thead tr th{
+    background-color: #414288;
+    color: white;
+}
+tbody tr:nth-child(odd) td:nth-child(1){
+    background-color: #dadada;
+
+}
+tbody tr:nth-child(even) td:nth-child(1){
+    background-color: #e9e9e9;
+
+}
+
+tbody tr:nth-child(odd){
+    background-color: #E6E8E6;
+}
+
+td, th{
+    padding: 6px 8px 6px 8px;
+}
+caption{
+    font-size: 0.8em;
+    caption-side: bottom;
+    padding-top: 5px;
+}
+.x{
+    color: red;
+    font-size: 1.5em;
+}
+.check{
+    color: green;
+    font-size: 1.5em;
+}
+
+.submitBtn{
+    color: white;
+    background-color: #414288;
+    box-shadow: 3px 3px #191919;
+    border: none;
+    font-size: 1em;
+    padding: 10px;
+    width: 100%;
+    max-width: 235px;
+    border-radius: 10px;
+}
+.submitBtn:hover{
+    color: #CED0CE;
+}
+.submitBtn:active{
+    box-shadow: none;
+}
+
+
+.joinHeading{
+    grid-row: 1/2;
+    background-color: #E6E8E6;
+    border: 1px #191919;
+    border-radius: 150px;
+    padding: 20px;
+}
+form{
+    grid-row: 3/4;
+}
+table{
+    grid-row: 2/3;
+}
+
+.endForm{
+    grid-column: 1/2;
+    grid-row: 2/3;
+}

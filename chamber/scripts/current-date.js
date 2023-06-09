@@ -5,7 +5,7 @@ datefield.textContent = fulldate;
 
 const options = {year: 'numeric', month: 'numeric', day: 'numeric', hour: '2-digit', minute: '2-digit'}
 document.getElementById('currentDate').textContent = new Date().toLocaleTimeString('en-US', options);
-
+document.getElementById("dateandtime").value = new Date().toLocaleTimeString('en-US', options);
 const yearOptions = {year: 'numeric'}
 document.getElementById('currentYear').textContent = new Date().getFullYear('en-US', options);
 
@@ -26,7 +26,6 @@ const visitSection = document.querySelector("#visit");
 const msToDays = 84600000;
 const msToSec = 1000;
 const today = Date.now();
-console.log(today);
 
 let lastVisit = Number(window.localStorage.getItem("lastVisit-ls")) || 0;
 

@@ -60,4 +60,18 @@
         grid-row: 1/6;
     }
 
+    /*----------- Join Page ---------------*/
+    .joinHeading{
+        grid-column: 1/4;
+        grid-row: 1/2;
+    }
+    form{
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+    table{
+        grid-column: 2/4;
+        grid-row: 2/3;
+    }
+
 }

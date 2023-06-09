@@ -107,4 +107,24 @@
         grid-column: 1/2;
         grid-row: 3/5;
     }
+
+/*----------- Join Page ---------------*/
+    .joinHeading{
+        grid-column: 1/3;
+        grid-row: 1/2;
+    }
+    form{
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+    table{
+        grid-column: 2/3;
+        grid-row: 2/3;
+    }
+    .submitBtn{
+        font-size: 1.4em;
+        padding: 10px;
+        width: 100%;
+        max-width: 400px;
+    }
 }
