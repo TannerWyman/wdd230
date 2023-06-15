@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Tanner Wyman">
+    <meta name="description" content="The home page of the city of Tremontons Chamber of Commerce with informatin about local events, weather, sites and local businesses.">
+    <link rel="icon" href="favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&family=Raleway:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <title>Tremonton City Chamber of Commerce Directory</title>
+</head>
+<body>
+    <header>
+        <div id="meetgreat"></div>
+        <img src="images/tremonton-city-commerce-logo.webp" id="logo" alt="Logo of Tremonton City Commerce">
+        <h1 class="heading">Tremonton City Commerce</h1>
+        <nav>
+            <button id="hBtn"><span>&#9776;</span><span>X</span></button>
+            <ul id="primaryNav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="join.html">Join</a></li>
+                <li class="active"><a href="directory.html">Business Directory</a></li>
+            </ul>
+        </nav>
+        <ul id="socialLink">
+            <li><a href="https://www.facebook.com/" class="fa fa-facebook" id="facebook"></a></li>
+            <li><a href="https://twitter.com/" class="fa fa-twitter"></a></li>
+        </ul>
+        <time></time>
+    </header>
+    <main>
+        <div class="menu">
+        <button id="grid">&#9783; Grid</button>
+        <button id="list">&#9776; List</button>
+        </div>
+
+        <article class="grid">
+
+        </article>
+    </main>
+    <footer>
+        <img src="images/tremonton-city-commerce-logo.webp" alt="Logo of Tremonton City Commerce">
+        <p>Contact info: wym22002@byui.edu | <a href="https://www.google.com/maps/place/Tremonton,+UT+84337/@41.7164891,-112.2068035,14z/data=!3m1!4b1!4m6!3m5!1s0x8754a2d8750d4ff7:0x926f26877ace8ff3!8m2!3d41.7118728!4d-112.1655079!16zL20vMDEwZDlq">Location on Map</a></p>
+        <p>&copy;<span id="currentYear"></span> Tremonton City Commerce | Tanner Wyman | WDD 230 Project | Last Modification: <span id="currentDate"></span></p>
+    </footer>
+    <script src="scripts/current-date.js"></script>
+    <script src="scripts/list-menu.js"></script>
+    <script src="scripts/directory.js"></script>
+</body>
+</html>
