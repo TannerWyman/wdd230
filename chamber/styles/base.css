@@ -469,7 +469,7 @@ article{
 
 .list section {
 	display: grid;
-	grid-template-columns: 2fr 1fr 1fr;
+	grid-template-columns: 1fr 1fr;
     margin: 5px;
 	padding: 0.25rem;
 }
@@ -489,23 +489,29 @@ article{
     background-color: white;
 }
 .list section img {
-	display: none; /* smaller viewports only */
+	display: none;
 }
-
 .list section h3 {
 	font-size: 1rem;
+    grid-row: 1/2;
+    grid-column: 1/2;
 }
-section h3 {
-	font-size: 1.5rem;
+.list section a{
+    grid-row: 2/3;
+    grid-column: 1/2;
+    max-width: 200px;
 }
 
 section p {
 	font-weight: 600;
 	font-size: smaller;
+    padding-top: 10px;
 }
 
 section a {
 	font-size: 0.85rem;
 	color: navy;
-	letter-spacing: 1.1pt;
+    padding-top: 5px;
+	letter-spacing: 0.75pt;
+    overflow-wrap: break-word;
 }
