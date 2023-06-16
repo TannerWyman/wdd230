@@ -502,13 +502,13 @@ article{
     max-width: 200px;
 }
 
-section p {
+article section p {
 	font-weight: 600;
 	font-size: smaller;
     padding-top: 10px;
 }
 
-section a {
+article section a {
 	font-size: 0.85rem;
 	color: navy;
     padding-top: 5px;
