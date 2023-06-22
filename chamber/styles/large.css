@@ -1,4 +1,4 @@
-@media only screen and (min-width: 70em){
+@media only screen and (min-width: 1400px){
     nav button {display: none;}
     h1{
         font-size: 3.5em;
@@ -40,11 +40,13 @@
     }
     #weather{
         grid-column: 1/2;
-        grid-row: 2/3;
+        grid-row: 3/4;
     }
     #join{
+
+
         grid-column: 1/2;
-        grid-row: 3/4;
+        grid-row: 2/3;
     }
     #highlights{
         grid-column: 4/5;

@@ -36,10 +36,18 @@
     </header>
     <main>
         <div class="herodiv">
-            <img src="images/tremonton-hero.jpg" id="hero-image" alt="A mural of Tremonton City">
-        <section id="hero">
+            <picture class="hero-img">
+                <source media="(min-width: 700px)" srcset="images/hero-1200.jpg">
+                <img src="images/hero-600.jpg" id="hero-image" loading="lazy" alt="A mural of Tremonton City">
+            </picture>
             <p id="cta">Welcome to Tremonton!</p>
-        </section>
+        <!--section id="hero">
+            <picture class="hero-img">
+                <source media="(min-width: 1100px)" srcset="images/hero-1200.jpeg">
+                <img src="images/hero-600.jpg" id="hero-image" loading="lazy" alt="A mural of Tremonton City">
+            </picture>
+            <p id="cta">Welcome to Tremonton!</p>
+        </section-->
         </div>
         <section id="news">
             <h2>News</h2>
@@ -51,11 +59,11 @@
         </section>
         <section id="weather">
             <h2>Weather</h2>
-            <h3><span id="temp">30</span>&deg;F</h3>
-            <img src="images/weather-temp.jpg" alt="weather icon">
-            <h3>Thunder Storm</h3>
+            <h3><span id="temp"></span>&deg;F</h3>
+            <img id="weather-icon" src="images/weather-temp.jpg">
+            <h3 id="weather-type"></h3>
             <section id="windSection">
-                <p>Wind Speed:&nbsp;&nbsp;&nbsp;&nbsp;<span id="windSpeed">5.2</span>mph</p>
+                <p>Wind Speed:&nbsp;&nbsp;&nbsp;<Strong><span id="windSpeed"></span></Strong> mph</p>
             </section>
         </section>
         <section id="join">
