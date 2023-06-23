@@ -176,7 +176,8 @@ main section{
     grid-row: 4/5;
 }
 #weather img{
-    max-width: 175px;
+    max-width: 80px;
+    max-height: 80px;
 }
 #weather section{
     border-top: 2px solid rgb(255, 255, 255);
