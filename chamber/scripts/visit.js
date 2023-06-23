@@ -12,7 +12,7 @@ if (lastVisit !== 0) {
     if (betwenDays < 1){
         visitSection.textContent = ` Not to long ago.`;
     } else{
-        visitSection.textContent = betwenDays + ` days ago.`;
+        visitSection.textContent = betwenDays.toFixed(0) + ` days ago.`;
     }
 } else {
     const meetDay = document.querySelector("#meetgreat");
