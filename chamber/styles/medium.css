@@ -157,4 +157,17 @@
         grid-column: 1/2;
         max-width: 350px;
     }
+/*--------Contact---------*/
+    .contactHeader{
+        grid-column: 1/3;
+        grid-row: 1/2;
+    }
+    .contactInfo{
+        grid-column: 2/3;
+        grid-row: 2/3;
+    }
+    .questionForm{
+        grid-row: 1/2;
+        grid-row: 2/3;
+    }
 }

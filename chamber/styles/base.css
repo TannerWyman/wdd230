@@ -8,7 +8,6 @@ header{
     background-color: #CED0CE;
     display: grid;
     grid-template-columns: 33vw auto 75px;
-
 }
 
 #meetgreat{
@@ -165,12 +164,22 @@ main section{
     top: 25px;
     left: 20px;
 }
+section h2{
+    margin-right: 50px;
+    margin-left: 50px;
+    border-bottom: 1px #191919 solid;
+    
+}
 
 #news{
     grid-row: 2/3;
 }
 #events{
     grid-row: 3/4;
+}
+#events h3{
+    font-size: 1.4em;
+    color: #414288;
 }
 #weather{
     grid-row: 4/5;
@@ -219,6 +228,9 @@ section div img{
 }
 section img{
     height: 30vw;
+}
+.phoneNum{
+    padding-bottom: 5px;
 }
 #joinButton{
     background-color: #414288;
@@ -515,4 +527,18 @@ article section a {
     padding-top: 5px;
 	letter-spacing: 0.75pt;
     overflow-wrap: break-word;
+}
+
+/*--------Contact---------*/
+.contactHeader{
+    background-color: #414288;
+    color: #ffffff;
+    font-size: 2em;
+    border-radius: 15px;
+    padding: 5px 60px 5px 60px;
+    margin: auto;
+}
+.contactSpace{
+    margin-top: 20px;
+    margin-bottom: 20px;
 }

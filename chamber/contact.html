@@ -5,14 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Tanner Wyman">
-    <meta name="description" content="Become a member of Tremontons local chamber of commerce from this page!">
+    <meta name="description" content="The home page of the city of Tremontons Chamber of Commerce with informatin about local events, weather, sites and local businesses.">
     <link rel="icon" href="favicon.ico">
     <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&family=Raleway:wght@600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="styles/large.css">
-    <title>Thank You</title>
+    <title>Tremonton City Chamber of Commerce Contact</title>
 </head>
 <body>
     <header>
@@ -25,7 +25,7 @@
                 <li><a href="index.html">Home</a></li>
                 <li><a href="discover.html">Discover</a></li>
                 <li><a href="join.html">Join</a></li>
-                <li><a href="directory.html">Business Directory</a></li>
+                <li class="active"><a href="directory.html">Business Directory</a></li>
             </ul>
         </nav>
         <ul id="socialLink">
@@ -35,8 +35,26 @@
         <time></time>
     </header>
     <main>
-        <h2>Thank you for filling out the form</h2>
-        <a class="endForm" href="index.html">Click here to go back to the home page</a>
+        <h2 class="contactHeader">Contact Info</h2>
+        <form class="questionForm" method="get" action="thankyou.html">
+            <fieldset>
+                <legend>Registration Information</legend>
+                <label class="top">Name&#x2731;: <input type="text" name="name" required placeholder="John Smith"></label>
+                <label class="top">Email&#x2731;: <input type="email" name="email" required placeholder="someone@gmail.com"></label>
+                <label class="top">Describe your Question/Concern&#x2731;:<textarea name="businessDes" required rows="2" cols="40"></textarea></label>
+            </fieldset>
+            <input type="hidden" value="" name="dateandtime" id="dateandtime">
+            <input type="submit" value="Submit Question" class="submitBtn">
+        </form>
+        <section class="contactInfo">
+            <h3>Office Hours</h3>
+            <p>Monday-Friday: 8:00-6:00</p>
+            <p>Saturday: 10:00-5:00</p>
+            <p>Sunday: Closed</p>
+            <div class="contactSpace"></div>
+            <h3>Email Address</h3>
+            <p><i>tremontoncity@falsemail.com</i></p>
+        </section>
     </main>
     <footer>
         <img src="images/tremonton-city-commerce-logo.webp" alt="Logo of Tremonton City Commerce">
