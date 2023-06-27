@@ -168,7 +168,6 @@ section h2{
     margin-right: 50px;
     margin-left: 50px;
     border-bottom: 1px #191919 solid;
-    
 }
 
 #news{
@@ -447,6 +446,9 @@ table{
 }
 article{
     grid-column: 1/2;
+}
+article section h2{
+    border-bottom: 0px #000000 solid;
 }
 .grid {
 	display: grid;
