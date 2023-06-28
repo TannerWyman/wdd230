@@ -30,6 +30,7 @@ h1{
     width: 33vw;
     grid-column: 1/2;
     grid-row: 1/3;
+    border-radius: 0;
 }
 header nav{
     grid-column: 1/4;
@@ -100,7 +101,9 @@ nav ul.open {display: block;}
 #hBtn.open span:nth-child(2) {display: block;}
 /**/
 
-
+img{
+    border-radius: 15px;
+}
 a {
     padding: 10px;
     font-family: 'Raleway', sans-serif;
@@ -127,7 +130,7 @@ main{
 main section{
     background-color: #E6E8E6;
     border: 1px #191919;
-    border-radius: 150px;
+    border-radius: 15px;
     padding: 20px;
 }
 .herodiv{
@@ -220,7 +223,7 @@ section h3{
 .company {
     background-color: #CED0CE;
     box-shadow: 5px 5px #adadad;
-    border-radius: 150px;
+    border-radius: 15px;
 }
 section div img{
     width: 40vw;
@@ -254,6 +257,7 @@ footer{
     background-color: #E6E8E6;
     padding: 15px;
 }
+
 #facebook{
     padding: 10px;
     padding-left: 13px;
@@ -284,10 +288,11 @@ figcaption{
 }
 .thingsToSee{
     background-color: #E6E8E6;
-    border-radius: 150px;
+    border-radius: 15px;
     border: 1px #191919;
     padding: 20px;
 }
+
 
 /*----------- Join Page ---------------*/
 form fieldset{
@@ -362,6 +367,7 @@ table{
     margin-right: auto;
     border-collapse: collapse;
     height: 350px;
+    grid-row: 2/3;
 }
 thead tr th{
     background-color: #414288;
@@ -420,16 +426,12 @@ caption{
     grid-row: 1/2;
     background-color: #E6E8E6;
     border: 1px #191919;
-    border-radius: 150px;
+    border-radius: 15px;
     padding: 20px;
 }
 form{
     grid-row: 3/4;
 }
-table{
-    grid-row: 2/3;
-}
-
 .endForm{
     grid-column: 1/2;
     grid-row: 2/3;
@@ -458,7 +460,8 @@ article section h2{
 }
 .grid section {
 	text-align: center;
-    margin: 10px;
+    margin: 5px;
+    border-radius: 15px;
 }
 
 .grid section > * {

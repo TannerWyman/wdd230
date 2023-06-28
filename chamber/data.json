@@ -5,63 +5,72 @@
         "address": "300 E Main St #1, Tremonton, UT 84337",
         "phone": "1-435-257-7014",
         "website": "http://kentsgrocery.com/tremonton",
-        "imageurl": "https://afs-media.netlify.app/kents/logo.png"
+        "imageurl": "https://afs-media.netlify.app/kents/logo.png",
+        "membership": "gold"
       },
       {
         "name": "The Grille",
         "address": "1410 W Main St, Tremonton, UT 84337",
         "phone": "1-435-257-4745",
         "website": "http://www.thegrillerestaurant.com/",
-        "imageurl": "https://www.thegrillerestaurant.com/images/grille%20logo-u3701.png?crc=4089282273"
+        "imageurl": "https://www.thegrillerestaurant.com/images/grille%20logo-u3701.png?crc=4089282273",
+        "membership": "bronze"
       },
       {
         "name": "Indulge Boutique",
         "address": "15 S Tremont St, Tremonton, UT 84337",
         "phone": "1-435-257-0099",
         "website": "http://www.indulgebtq.com/",
-        "imageurl": "https://cdn.shopify.com/s/files/1/0319/9932/8391/files/indulge-logo-02-light_500x@2x.png?v=1613709708"
+        "imageurl": "https://cdn.shopify.com/s/files/1/0319/9932/8391/files/indulge-logo-02-light_500x@2x.png?v=1613709708",
+        "membership": "silver"
       },
       {
         "name": "Pizza Plus",
         "address": "55 S 100 E, Tremonton, UT 84337",
         "phone": "1-435-257-7587",
         "website": "http://www.pizzaplusutah.com/",
-        "imageurl": "https://pizzaplusutah.com/wp-content/uploads/2023/02/Pizza-Plus-Logo-300x210.png"
+        "imageurl": "https://pizzaplusutah.com/wp-content/uploads/2023/02/Pizza-Plus-Logo-300x210.png",
+        "membership": "silver"
       },
       {
         "name": "Buggy Wash",
         "address": "220 E Main St, Tremonton, UT 84337",
         "phone": "1-435-730-7209",
         "website": "http://www.buggywash.com/",
-        "imageurl": "https://www.buggywash.com/images/BUGGY_WASH_LOGO.jpg"
+        "imageurl": "https://www.buggywash.com/images/BUGGY_WASH_LOGO.jpg",
+        "membership": "bronze"
       },
       {
         "name": "YES Printing FedEx",
         "address": "340 W Main St, Tremonton, UT 84337",
         "phone": "1-435-239-7530",
         "website": "http://www.yesprintcopy.com/",
-        "imageurl": "https://www.yesprintcopy.com/Documents%20and%20Settings/127/Site%20Documents/web-logo.png"
+        "imageurl": "https://www.yesprintcopy.com/Documents%20and%20Settings/127/Site%20Documents/web-logo.png",
+        "membership": "gold"
       },
       {
         "name": "BD3D Customs 3D printing services",
         "address": "10090 N 6800 W, Tremonton, UT 84337",
         "phone": "1-435-232-5087",
         "website": "http://www.bd3dcustoms.com/",
-        "imageurl": "https://cdn.shopify.com/s/files/1/0644/7058/1501/files/IOFX_Logo_White_200x.png?v=1654184363"
+        "imageurl": "https://cdn.shopify.com/s/files/1/0644/7058/1501/files/IOFX_Logo_White_200x.png?v=1654184363",
+        "membership": "bronze"
       },
       {
         "name": "Tremonton FamilySearch Center",
         "address": "487 E 1500 S, Tremonton, UT 84337",
         "phone": "1-435-257-7015",
         "website": "https://www.familysearch.org/en/wiki/Bear_River_Valley_Utah_FamilySearch_Center",
-        "imageurl": "https://www.familysearch.org/en/wiki/img_auth.php/5/5f/Tremonton_Garland_FHC.png"
+        "imageurl": "https://www.familysearch.org/en/wiki/img_auth.php/5/5f/Tremonton_Garland_FHC.png",
+        "membership": "np"
       },
       {
         "name": "Don's Furniture & Design",
         "address": "18 E Main St, Tremonton, UT 84337",
         "phone": "1-435-257-5745",
         "website": "http://www.donsfurnitureutah.com/",
-        "imageurl": "https://www.donsfurnitureutah.com/cdn/shop/files/Don_s_Furniture_Logo_3_290x.png?v=1679322551"
+        "imageurl": "https://www.donsfurnitureutah.com/cdn/shop/files/Don_s_Furniture_Logo_3_290x.png?v=1679322551",
+        "membership": "silver"
       }
     ]
   }

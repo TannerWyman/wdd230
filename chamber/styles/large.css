@@ -60,6 +60,19 @@
         grid-row: 1/6;
     }
 
+    .demograph{
+        grid-column: 1/4;
+        grid-row: 1/2;
+    }
+    .imgList{
+        grid-column: 1/4;
+        grid-row: 3/6;
+    }
+    .thingsToSee{
+        grid-column: 1/4;
+        grid-row: 2/3;
+    }
+
     /*----------- Join Page ---------------*/
     .joinHeading{
         grid-column: 1/4;
