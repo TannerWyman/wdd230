@@ -3,7 +3,7 @@ const url1 = 'data.json';
 async function getCompanyData() {
     const response = await fetch(url1);
     const data = await response.json();
-    console.table(data.companies); 
+    //console.table(data.companies); 
     displayCompanies(data.companies);
   }
   
@@ -20,9 +20,9 @@ const displayCompanies = (companies) => {
         var item = usedCompanies.includes(randomElement)
 
         if(item == true){
-            console.log("found a used number")
+            //console.log("found a used number")
         } else {
-            console.log(randomElement);
+            //console.log(randomElement);
             let company = companies[randomElement];
 
             if(company.membership == "gold" ||company.membership == "silver"){

@@ -3,7 +3,7 @@ const url = 'data.json';
 async function getCompanyData() {
     const response = await fetch(url);
     const data = await response.json();
-    console.table(data.companies); 
+    //console.table(data.companies); 
     displayCompanies(data.companies);
   }
   
