@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The home page of Bountiful Foods! Find locations, create your own drinks and more! Come visit today!">
+    <title>Bountiful Foods Home Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow&family=Teko:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+</head>
+<body>
+    <header>
+        <!--img src="images/bountiful-foods-logo.png" alt="" class="logo"-->
+        <h1>Bountiful Foods</h1>
+        <div class="scrollmenu">
+            <a href="index.html" class="active">Home</a>
+            <a href="fresh.html">Fresh</a>
+            <a href="about.html">About Us</a>
+        </div>
+    </header>
+    <main>
+        <picture>
+            <source media="(min-width: 1500px)" srcset="images/fruit-line-up-1500.jpg">
+            <source media="(min-width: 1100px)" srcset="images/fruit-line-up-1200.jpg">
+            <img src="images/fruit-line-up-850.jpg" alt="An image with lots of fruit" class="hero-img">
+        </picture>
+
+        <p><a href="fresh.html" class="freshBtn">Get Fresh!</a></p>
+
+        <section class="location">
+            <h2>Locations</h2>
+            <p>Bountiful Foods is home to many food trucks located in numeruse cities all over southern California. Come find us at the local food truck parks in the following locations:</p>
+            <ul>
+                <li><a href="https://www.google.com/maps/place/Carlsbad,+CA/@33.1214111,-117.4526098,11z/data=!3m1!4b1!4m6!3m5!1s0x80dc73453f3bee59:0xa4cb5592fcf65d2f!8m2!3d33.1580933!4d-117.3505939!16zL20vMHI0d24?entry=ttu">Carlsbad</a></li>
+                <li><a href="https://www.google.com/maps/place/Palm+Desert,+CA/@33.7602082,-116.4778752,10.96z/data=!4m6!3m5!1s0x80dafc2ef2a5c237:0x2eb9468f86af4675!8m2!3d33.7222445!4d-116.3744556!16zL20vMHIzdGI?entry=ttu">Palm Desert</a></li>
+                <li><a href="https://www.google.com/maps/place/San+Bernardino,+CA/@34.1487662,-117.4594522,11z/data=!3m1!4b1!4m6!3m5!1s0x80c3537de2fdb8f3:0x2867c6788c87c28d!8m2!3d34.1083449!4d-117.2897652!16zL20vMHI0cXE?entry=ttu">San Bernardino</a></li>
+                <li><a href="https://www.google.com/maps/place/Escondido,+CA/@33.1348036,-117.2350549,11z/data=!3m1!4b1!4m6!3m5!1s0x80dbf35e81c2437b:0x1d1c80f7796c5df!8m2!3d33.1192068!4d-117.086421!16zL20vMHI0ejc?entry=ttu">Escondido</a></li>
+            </ul>
+        </section>
+
+        <div><p></p></div>
+
+        <section class="weather">
+            <h2>Weather in Carlsbad, California</h2>
+            <img src="" alt="" id="icon">
+            <h3 id="temp">83</h3>
+            <h3 id="condition">Sunny</h3>
+            <h3 id="humidity">Humidity: 87%</h3>
+            <div class="three-day">
+
+            </div>
+        </section>
+
+        <div><p></p></div>
+
+        <section class="dink-card">
+            <h2>Drink History</h2>
+            <p>You have ordered <span id="drinkNum">#</span> drinks in total!</p>
+        </section>
+    </main>
+    <footer>
+        <p>Contact info: wym22002@byui.edu</p>
+        <p>&copy;<span id="currentYear"></span> Bountiful Foods | Tanner Wyman | WDD 230 Project | Last Modification: <!--span id="currentDate"></span--></p>
+    </footer>
+    <script src="scripts/weather.js"></script>
+</body>
+</html>
