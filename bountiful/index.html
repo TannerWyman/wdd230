@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="The home page of Bountiful Foods! Find locations, create your own drinks and more! Come visit today!">
     <title>Bountiful Foods Home Page</title>
+    <link rel="icon" href="favicon.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Barlow&family=Teko:wght@600&display=swap" rel="stylesheet">
@@ -15,7 +16,7 @@
 </head>
 <body>
     <header>
-        <!--img src="images/bountiful-foods-logo.png" alt="" class="logo"-->
+        <!--img src="images/bountiful-foods-logo-small.png" alt="" class="logo"-->
         <h1>Bountiful Foods</h1>
         <div class="scrollmenu">
             <a href="index.html" class="active">Home</a>
@@ -47,12 +48,17 @@
 
         <section class="weather">
             <h2>Weather in Carlsbad, California</h2>
-            <img src="" alt="" id="icon">
-            <h3 id="temp">83</h3>
+            <img src="images/loading-125.png" alt="loading" id="icon">
+            <h3><span id="temp"></span>&deg;F</h3>
             <h3 id="condition">Sunny</h3>
-            <h3 id="humidity">Humidity: 87%</h3>
+            <h3>Humidity- <span id="humidity"></span>%</h3>
             <div class="three-day">
-
+                <img src="images/loading-125.png" alt="loading" id="day1Icon">
+                <h4>Tomorrow- <span id="day1Temp"></span>&deg;F</h4>
+                <img src="images/loading-125.png" alt="loading" id="day2Icon">
+                <h4>2 Days- <span id="day2Temp"></span>&deg;F</h4>
+                <img src="images/loading-125.png" alt="loading" id="day3Icon">
+                <h4>3 Days- <span id="day3Temp"></span>&deg;F</h4>
             </div>
         </section>
 
@@ -60,7 +66,7 @@
 
         <section class="dink-card">
             <h2>Drink History</h2>
-            <p>You have ordered <span id="drinkNum">#</span> drinks in total!</p>
+            <p>You have ordered <span id="drinkNum"></span># drinks in total!</p>
         </section>
     </main>
     <footer>
