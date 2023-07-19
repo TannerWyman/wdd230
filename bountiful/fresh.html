@@ -16,7 +16,7 @@
 </head>
 <body>
     <header>
-        <!--img src="images/bountiful-foods-logo.png" alt="" class="logo"-->
+        <img src="images/bountiful-foods-logo-small.png" alt="bountiful foods logo" class="logo">
         <h1>Bountiful Foods</h1>
         <div class="scrollmenu">
             <a href="index.html">Home</a>
@@ -26,11 +26,11 @@
     </header>
     <main>
         <h2>Create Your Drink!</h2>
-        <form method="get" id="form">
+        <form method="get" id="form" onsubmit="return false">
             <legend>Drink Information</legend>
-            <label class="top" id="name">First Name: <input type="text" name="fname" required placeholder="John"></label>
-            <label class="top" id="mail">Email: <input type="email" name="email" required placeholder="someone@gmail.com"></label>
-            <label class="top" id="phone">Phone: <input type="tel" name="phone" required placeholder="xxx-xxx-xxxx"></label>
+            <label class="top">First Name: <input id="name" type="text" name="fname" required placeholder="John"></label>
+            <label class="top">Email: <input id="mail" type="email" name="email" required placeholder="someone@gmail.com"></label>
+            <label class="top">Phone: <input id="phone" type="tel" name="phone" required placeholder="xxx-xxx-xxxx"></label>
             <label class="top">
                 Fruit A:
                 <select id="optionsA" name="level" required>
@@ -49,17 +49,18 @@
                     <option value="">Please Select</option>
                 </select>
             </label>
-            <label class="top">Special Instructions:<textarea name="special" rows="2" cols="40"></textarea></label>
+            <label class="top"><div class="special">Special Instructions:</div><textarea name="special" rows="2" cols="40"></textarea></label>
         </fieldset>
         <input type="hidden" value="" name="date" id="date">
-        <button type="submit" class="submitBtn">Juice!</button>
+        <button type="submit" class="submitBtn" id="submit">Juice!</button>
         </form>
         <p id="log"></p>
     </main>
     <footer>
         <p>Contact info: wym22002@byui.edu</p>
-        <p>&copy;<span id="currentYear"></span> Bountiful Foods | Tanner Wyman | WDD 230 Project | Last Modification: <!--span id="currentDate"></span--></p>
+        <p>&copy;<span id="currentYear"></span> Bountiful Foods | Tanner Wyman | WDD 230 Project | Last Modification: <span id="currentDate"></span></p>
     </footer>
     <script src="scripts/read-data.js"></script>
+    <script src="scripts/current-date.js"></script>
 </body>
 </html>

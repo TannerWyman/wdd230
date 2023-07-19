@@ -101,10 +101,10 @@ section{
     background-color: #156064;
     border: #156064 2px solid;
 }
-.weather h3{
+.weather div h3{
     margin: 5px;
 }
-.weather img{
+.weather div img{
     background-color: #00c49a;
     border-radius: 5px;
 }
@@ -114,10 +114,12 @@ h4{
 .three-day{
     border-top: black 1.5px solid;
     display: flex;
+    padding: 5px;
 }
 .three-day img{
     max-width: 50px;
     max-height: 50px;
+    margin: 5px;
 }
 li{
     list-style-type: none;
@@ -178,7 +180,6 @@ form input.submitBt{
     width: 96%;
     max-width: 20rem;
 }
-
 textarea {
     width: 100%;
     max-width: 316px;
@@ -208,19 +209,28 @@ textarea {
     background-color: #156064;
     color: white;
 }
+#log{
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+}
 /*------About-------*/
-.location{
-    border: #00c49a 2px solid;
+.store-front{
+    padding: 10px;
+    width: 320px;
+    max-width: 320px;
+}
+.storeLocation{
+    background-color: #FFC2B4;
     padding: 2px;
     border-radius: 5px;
     font-size: 2em;
 }
-.location:hover{
+.storeLocation:hover{
     background-color: #00c49a;
     color: black;
 }
-.location:active{
+.storeLocation:active{
     background-color: #156064;
-    border: #156064 2px solid;
     color: white;
 }

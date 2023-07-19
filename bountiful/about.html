@@ -16,7 +16,7 @@
 </head>
 <body>
     <header>
-        <!--img src="images/bountiful-foods-logo.png" alt="" class="logo"-->
+        <img src="images/bountiful-foods-logo-small.png" alt="bountiful foods logo" class="logo">
         <h1>Bountiful Foods</h1>
         <div class="scrollmenu">
             <a href="index.html">Home</a>
@@ -35,18 +35,22 @@
                 up and running food trucks.
             </p>
         </section>
-        <div><p></p></div>
+        <picture>
+            <source media="(min-width: 1500px)" srcset="images/store-front-1920.jpg">
+            <img src="images/store-front-640.jpg" alt="store front" class="store-front">
+        </picture>
         <section>
             <h3>Contact Information</h3>
             <p>For questions and concerns please conact us during the following hours: <strong>10:00 a.m - 7:00 p.m</strong></p>
             <p>Email: <strong>bountifulfood@gbail.com</strong></p>
             <p>Phone: <strong>555-728-8009</strong></p>
         </section>
-        <p><a class="location" href="https://www.google.com/maps/place/Carlsbad,+CA/@33.1216362,-117.3702041,12z/data=!3m1!4b1!4m6!3m5!1s0x80dc73453f3bee59:0xa4cb5592fcf65d2f!8m2!3d33.1580933!4d-117.3505939!16zL20vMHI0d24?entry=ttu">Come visit us at our store</a></p>
+        <p><a class="storeLocation" href="https://www.google.com/maps/place/Carlsbad,+CA/@33.1216362,-117.3702041,12z/data=!3m1!4b1!4m6!3m5!1s0x80dc73453f3bee59:0xa4cb5592fcf65d2f!8m2!3d33.1580933!4d-117.3505939!16zL20vMHI0d24?entry=ttu">Come visit us at our store</a></p>
     </main>
     <footer>
         <p>Contact info: wym22002@byui.edu</p>
-        <p>&copy;<span id="currentYear"></span> Bountiful Foods | Tanner Wyman | WDD 230 Project | Last Modification: <!--span id="currentDate"></span--></p>
+        <p>&copy;<span id="currentYear"></span> Bountiful Foods | Tanner Wyman | WDD 230 Project | Last Modification: <span id="currentDate"></span></p>
     </footer>
+    <script src="scripts/current-date.js"></script>
 </body>
 </html>

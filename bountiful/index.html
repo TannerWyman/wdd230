@@ -16,7 +16,7 @@
 </head>
 <body>
     <header>
-        <!--img src="images/bountiful-foods-logo-small.png" alt="" class="logo"-->
+        <img src="images/bountiful-foods-logo-small.png" alt="bountiful foods logo" class="logo">
         <h1>Bountiful Foods</h1>
         <div class="scrollmenu">
             <a href="index.html" class="active">Home</a>
@@ -47,11 +47,13 @@
         <div><p></p></div>
 
         <section class="weather">
-            <h2>Weather in Carlsbad, California</h2>
-            <img src="images/loading-125.png" alt="loading" id="icon">
-            <h3><span id="temp"></span>&deg;F</h3>
-            <h3 id="condition">Sunny</h3>
-            <h3>Humidity- <span id="humidity"></span>%</h3>
+            <div class="current">
+                <h2>Weather in Carlsbad, California</h2>
+                <img src="images/loading-125.png" alt="loading" id="icon">
+                <h3><span id="temp"></span>&deg;F</h3>
+                <h3 id="condition">Sunny</h3>
+                <h3>Humidity- <span id="humidity"></span>%</h3>
+            </div>
             <div class="three-day">
                 <img src="images/loading-125.png" alt="loading" id="day1Icon">
                 <h4>Tomorrow- <span id="day1Temp"></span>&deg;F</h4>
@@ -66,13 +68,15 @@
 
         <section class="dink-card">
             <h2>Drink History</h2>
-            <p>You have ordered <span id="drinkNum"></span># drinks in total!</p>
+            <p id="drinkNum"></p>
         </section>
     </main>
     <footer>
         <p>Contact info: wym22002@byui.edu</p>
-        <p>&copy;<span id="currentYear"></span> Bountiful Foods | Tanner Wyman | WDD 230 Project | Last Modification: <!--span id="currentDate"></span--></p>
+        <p>&copy;<span id="currentYear"></span> Bountiful Foods | Tanner Wyman | WDD 230 Project | Last Modification: <span id="currentDate"></span></p>
     </footer>
     <script src="scripts/weather.js"></script>
+    <script src="scripts/current-date.js"></script>
+    <script src="scripts/drink-num.js"></script>
 </body>
 </html>
