@@ -27,6 +27,7 @@
     <main>
         <h2>Create Your Drink!</h2>
         <form method="get" id="form" onsubmit="return false">
+        <fieldset>
             <legend>Drink Information</legend>
             <label class="top">First Name: <input id="name" type="text" name="fname" required placeholder="John"></label>
             <label class="top">Email: <input id="mail" type="email" name="email" required placeholder="someone@gmail.com"></label>
@@ -49,12 +50,30 @@
                     <option value="">Please Select</option>
                 </select>
             </label>
-            <label class="top"><div class="special">Special Instructions:</div><textarea name="special" rows="2" cols="40"></textarea></label>
+            <label class="top">
+                Special Instructions:
+                <textarea id="special" name="special" rows="2" cols="40"></textarea>
+            </label>
         </fieldset>
         <input type="hidden" value="" name="date" id="date">
         <button type="submit" class="submitBtn" id="submit">Juice!</button>
         </form>
-        <p id="log"></p>
+        <section id="log">
+            <h3 id="order"></h3>
+            <p id="orderName"></p>
+            <p id="orderMail"></p>
+            <p id="orderPhone"></p>
+            <p id="orderSpecial"></p>
+            <p id="orderFruit1"></p>
+            <p id="orderFruit2"></p>
+            <p id="orderFruit3"></p>
+            <p id="carbs"></p>
+            <p id="protein"></p>
+            <p id="fat"></p>
+            <p id="calories"></p>
+            <p id="sugar"></p>
+        </section>
+        <!--p id="log"></p-->
     </main>
     <footer>
         <p>Contact info: wym22002@byui.edu</p>

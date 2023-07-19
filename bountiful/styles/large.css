@@ -1,4 +1,9 @@
 @media only screen and (min-width: 1000px) {
+    .location ul li a{
+        font-size: 2em;
+        border: #00c49a 3px solid;
+
+    }
     /*------Index-------*/
     /*main{
         display: grid;

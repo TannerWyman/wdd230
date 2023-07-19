@@ -138,8 +138,13 @@ form{
     font-family: 'Barlow', sans-serif;
     text-align: left;
     border-radius: 10px;
-    margin: 0 50px 0 50px;
+    /*margin: 0 50px 0 50px;*/
+    margin: auto;
     padding: 10px;
+    max-width: 420px;
+}
+form fieldset{
+    border: none;
 }
 form fieldset label{
     padding: 5px;
@@ -197,22 +202,28 @@ textarea {
     text-align: center;
     font-size: 2.75em;
     background-color: #FFC2B4;
-    border: none;
+    border: #fb8f67 2px solid;
     border-radius: 50px;
     padding: 1px 13px 3px 13px;
 }
 .submitBtn:hover{
     background-color: #00c49a;
+    border: #00c49a 2px solid;
     color: black;
 }
 .submitBtn:active{
     background-color: #156064;
+    border: #156064 2px solid;
     color: white;
 }
 #log{
     border-radius: 5px;
     padding: 10px;
     text-align: center;
+    max-width: 500px;
+    margin: 20px auto;
+    background-color: #fb8f67;
+    font-family: 'Barlow', sans-serif;
 }
 /*------About-------*/
 .store-front{
@@ -225,6 +236,7 @@ textarea {
     padding: 2px;
     border-radius: 5px;
     font-size: 2em;
+    color: black;
 }
 .storeLocation:hover{
     background-color: #00c49a;

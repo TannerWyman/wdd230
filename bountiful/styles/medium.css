@@ -2,6 +2,15 @@
     .logo{
         float: left;
     }
+    h1{
+        justify-self: center;
+        align-self: center;
+    }
+    .location ul li a{
+        font-size: 1.5em;
+        border: #00c49a 2px solid;
+
+    }
     .freshBtn{
         font-size: 2em;
         border-radius: 50px;
